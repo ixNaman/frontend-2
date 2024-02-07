@@ -1,7 +1,13 @@
 let offset = 0;
 const limit=10;
 const element =document.getElementById("pkm")
+const cont =document.getElementById("container")
 document.getElementById("prev").style.visibility = "hidden";
+
+const image = document.createElement("img")
+image.src="https://static.vecteezy.com/system/resources/previews/027/127/591/non_2x/pokemon-logo-pokemon-icon-transparent-free-png.png"
+cont.appendChild(image)
+image.id="image1"
 
 
 const btn1 =document.getElementById("btn")

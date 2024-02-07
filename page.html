@@ -4,22 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokemon</title>
     <script src="./page.js" defer></script>
+    <link rel="icon" type="image/png"
+        href="https://www.freepnglogos.com/uploads/pokeball-png/pokeball-alexa-style-blog-pokemon-inspired-charmander-daily-8.png">
+
+    <link rel="stylesheet" href="page.css" />
+
 
 </head>
 
 <body>
-    <div id="main">
+    <div id="container">
+        <div id="main">
 
-        <div>
-            <button id="btn">show pokemon</button>
-            <button id="nxt" onclick="fetchNextPokemon()">next</button>
-            <button id="prev" onclick="fetchPreviousPokemon()">previous</button>
+            <div>
+                <button  id="btn">show pokemon</button>
+                <button  id="nxt" onclick="fetchNextPokemon()">next</button>
+                <button  id="prev" onclick="fetchPreviousPokemon()">previous</button>
 
-        </div>
-        <div id="pkm">
+            </div>
+            <div id="pkm">
 
+            </div>
         </div>
     </div>
 </body>

@@ -1,0 +1,52 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#btn {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#nxt {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 52%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#pkm{
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left:46%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+#prev {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 57%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#image1{
+    margin: 0;
+    position: absolute;
+    top: 9%;
+    left:46%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 400px;
+
+}
