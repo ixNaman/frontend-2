@@ -29,6 +29,7 @@ body {
     left:46%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    
 
 }
 #prev {
@@ -42,7 +43,7 @@ body {
 #image1{
     margin: 0;
     position: absolute;
-    top: 9%;
+    top: 7%;
     left:46%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
